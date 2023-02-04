@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Device Logging Demo</title>
+</head>
+<body>
+
+<div id="container">
+    <div id="top_bar">
+        <button id="clear_button" class="top_barButton">Clear Data</button>
+        <button id="drop_connection_button" class="top_barButton">Drop connection</button>
+        <button id="get_all_button" class="top_barButton">Get all data</button>
+        <button id="get_recent_button" class="top_barButton">Get recent data</button>
+    </div>
+    <div id="settings_container">
+        <form id="input_form">
+            <label>Log frequency</label>
+            <input id="frequency_field" class="input_field" value="1" disabled>
+            <label>Drop connection time</label>
+            <input id="drop_field" class="input_field" value="10" disabled>
+        </form>
+    </div>
+    <div id="data_container">
+    </div>
+</div>
+
+<script src="js.js">
+</script>
+</body>
+</html>

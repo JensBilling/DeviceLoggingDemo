@@ -1,0 +1,44 @@
+body {
+margin: 0;
+}
+
+#container {
+    margin: auto;
+    width: 1200px;
+    height: 100vh;
+}
+
+#top_bar {
+    text-align: center;
+    margin: auto;
+    height: 100px;
+}
+
+.top_barButton {
+    margin-top: 10px;
+    align-content: center;
+    width: 150px;
+    height: 80px;
+}
+
+#settings_container {
+    text-align: center;
+    height: 30px;
+}
+
+.input_field {
+    width: 30px;
+}
+
+#frequency_field {
+    margin-right: 100px;
+}
+
+#data_container {
+    margin: auto;
+    text-align: center;
+    width: 650px;
+    min-height: 20px;
+    background-color: rgb(240, 240, 240);
+    border: solid;
+}
